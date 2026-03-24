@@ -126,3 +126,13 @@ public class ListaDinamica {
         exibir();
     }
 }
+
+/*
+        } else if (this.inicio.getProx().getProx() == null) {
+            NoInteiro aux = this.inicio.getProx();
+            if (aux.getConteudo() < aux.getAnterior().getConteudo()) {
+                int menorNumero = aux.getConteudo();
+                aux.setConteudo(aux.getAnterior().getConteudo());
+                aux.getAnterior().setConteudo(menorNumero);
+            }
+ */
