@@ -127,7 +127,7 @@ public class ListaDinamica {
     }
 }
 
-/*
+/* Prevencão de quebra de código
         } else if (this.inicio.getProx().getProx() == null) {
             NoInteiro aux = this.inicio.getProx();
             if (aux.getConteudo() < aux.getAnterior().getConteudo()) {
