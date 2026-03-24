@@ -111,13 +111,6 @@ public class ListaDinamica {
             System.out.println("Não há o que ordenar pois a lista está vazia!");
         } else if (this.inicio.getProx() == null) {
             System.out.println("Só há um elemento na lista, não há o que ordenar!");
-        } else if (this.inicio.getProx().getProx() == null) {
-            NoInteiro aux = this.inicio.getProx();
-            if (aux.getConteudo() < aux.getAnterior().getConteudo()) {
-                int menorNumero = aux.getConteudo();
-                aux.setConteudo(aux.getAnterior().getConteudo());
-                aux.getAnterior().setConteudo(menorNumero);
-            }
         } else {
             NoInteiro aux = this.inicio;
             while (aux.getProx() != null) {
